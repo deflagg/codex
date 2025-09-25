@@ -1,0 +1,6 @@
+numpy>=1.24
+python-dotenv
+wandb>=0.16
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.2.*

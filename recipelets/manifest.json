@@ -1,0 +1,15 @@
+{
+  "total": 100000,
+  "shards": 1,
+  "per_shard": 100000,
+  "seed": 43,
+  "gzip": false,
+  "noise_rate": 0.05,
+  "text_out": null,
+  "policies": {
+    "unicode_form": "NFKC",
+    "dash_normalization": true,
+    "lowercase": true,
+    "decimal_places": 2
+  }
+}

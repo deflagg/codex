@@ -1,0 +1,144 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            4j4hlwbn2zryl325ua9p1h5ix20j6ssh:
+                args:
+                    - train
+                    - --workdir
+                    - ./carlos_run
+                codePath: carlos.py
+                codePathLocal: carlos.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1000068870144"
+                        used: "303149232128"
+                email: deflagg@hotmail.com
+                executable: D:\source\vscode\codex\.venv\Scripts\python.exe
+                gpu: NVIDIA GeForce GTX 1080
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 2560
+                      memoryTotal: "8589934592"
+                      name: NVIDIA GeForce GTX 1080
+                      uuid: GPU-7f4c2dce-af5e-53f4-4f29-4ae291c5afc3
+                host: Crunchy
+                memory:
+                    total: "17028861952"
+                os: Windows-10-10.0.26100-SP0
+                program: D:\source\vscode\codex\carlos.py
+                python: CPython 3.11.3
+                root: ./carlos_run
+                startedAt: "2025-09-25T03:31:24.725553Z"
+                writerId: 4j4hlwbn2zryl325ua9p1h5ix20j6ssh
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 1
+                - 2
+                - 16
+                - 61
+            "4": 3.11.3
+            "5": 0.22.0
+            "8":
+                - 3
+            "12": 0.22.0
+            "13": windows-amd64
+beta1:
+    value: 0.9
+beta2:
+    value: 0.95
+d_ff:
+    value: 192
+d_model:
+    value: 64
+data/test:
+    value:
+        bytes: 1264802
+        tokens: 1264802
+        windows: 2470
+data/train:
+    value:
+        bytes: 22766424
+        tokens: 22766424
+        windows: 44465
+data/val:
+    value:
+        bytes: 1264801
+        tokens: 1264801
+        windows: 2470
+dataset_meta:
+    value:
+        test:
+            bytes: 1264802
+            tokens: 1264802
+            windows: 2470
+        train:
+            bytes: 22766424
+            tokens: 22766424
+            windows: 44465
+        val:
+            bytes: 1264801
+            tokens: 1264801
+            windows: 2470
+device:
+    value: null
+dropout:
+    value: 0.1
+early_stop_patience:
+    value: 5
+eps:
+    value: 1e-08
+eval_interval:
+    value: 1000
+grad_accum_steps:
+    value: 4
+grad_clip:
+    value: 1
+label_smoothing:
+    value: 0
+log_interval:
+    value: 100
+max_epochs:
+    value: null
+max_steps:
+    value: 10000
+micro_batch_size:
+    value: 4
+min_lr:
+    value: 1e-05
+n_heads:
+    value: 4
+n_layers:
+    value: 2
+param_count:
+    value: 99968
+peak_lr:
+    value: 0.001
+precision:
+    value: auto
+seed:
+    value: 1234
+seq_len:
+    value: 512
+tokens_per_step:
+    value: 8192
+use_bos:
+    value: false
+use_eos:
+    value: false
+vocab_size:
+    value: 256
+warmup_steps:
+    value: 1500
+weight_decay:
+    value: 0.01

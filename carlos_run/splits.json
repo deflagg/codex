@@ -1,0 +1,34 @@
+{
+  "prepared_at": 1758771007.2607813,
+  "input_path": "D:\\source\\vscode\\codex\\corpus_plain.txt",
+  "total_bytes": 25296027,
+  "seq_len": 512,
+  "normalize_nfkc": false,
+  "splits": {
+    "train": {
+      "start": 0,
+      "end": 22766424,
+      "bytes": 22766424,
+      "tokens": 22766424,
+      "windows": 44465,
+      "npy": "data\\train.npy"
+    },
+    "val": {
+      "start": 22766424,
+      "end": 24031225,
+      "bytes": 1264801,
+      "tokens": 1264801,
+      "windows": 2470,
+      "npy": "data\\val.npy"
+    },
+    "test": {
+      "start": 24031225,
+      "end": 25296027,
+      "bytes": 1264802,
+      "tokens": 1264802,
+      "windows": 2470,
+      "npy": "data\\test.npy"
+    }
+  },
+  "seed": 1234
+}
