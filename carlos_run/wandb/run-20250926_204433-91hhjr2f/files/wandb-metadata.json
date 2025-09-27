@@ -1,7 +1,7 @@
 {
   "os": "Windows-10-10.0.26100-SP0",
   "python": "CPython 3.11.3",
-  "startedAt": "2025-09-25T03:43:51.356405Z",
+  "startedAt": "2025-09-27T00:44:33.446323Z",
   "args": [
     "train",
     "--workdir",
@@ -10,6 +10,10 @@
   "program": "D:\\source\\vscode\\codex\\carlos.py",
   "codePath": "carlos.py",
   "codePathLocal": "carlos.py",
+  "git": {
+    "remote": "https://github.com/deflagg/codex.git",
+    "commit": "07454cee7c65d902d5e6a4ed2e9025976a4d759e"
+  },
   "email": "deflagg@hotmail.com",
   "root": "./carlos_run",
   "host": "Crunchy",
@@ -21,7 +25,7 @@
   "disk": {
     "/": {
       "total": "1000068870144",
-      "used": "303152848896"
+      "used": "303793520640"
     }
   },
   "memory": {
@@ -37,5 +41,5 @@
     }
   ],
   "cudaVersion": "12.8",
-  "writerId": "anbjeze2nxbyy5r369mtzagxz1kdmony"
+  "writerId": "xp6665so5f9hp2tzt6mtzv4kdjx751v6"
 }

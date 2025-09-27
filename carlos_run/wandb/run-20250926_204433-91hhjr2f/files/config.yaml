@@ -2,7 +2,7 @@ _wandb:
     value:
         cli_version: 0.22.0
         e:
-            4j4hlwbn2zryl325ua9p1h5ix20j6ssh:
+            xp6665so5f9hp2tzt6mtzv4kdjx751v6:
                 args:
                     - train
                     - --workdir
@@ -15,9 +15,12 @@ _wandb:
                 disk:
                     /:
                         total: "1000068870144"
-                        used: "303149232128"
+                        used: "303793520640"
                 email: deflagg@hotmail.com
                 executable: D:\source\vscode\codex\.venv\Scripts\python.exe
+                git:
+                    commit: 07454cee7c65d902d5e6a4ed2e9025976a4d759e
+                    remote: https://github.com/deflagg/codex.git
                 gpu: NVIDIA GeForce GTX 1080
                 gpu_count: 1
                 gpu_nvidia:
@@ -33,8 +36,8 @@ _wandb:
                 program: D:\source\vscode\codex\carlos.py
                 python: CPython 3.11.3
                 root: ./carlos_run
-                startedAt: "2025-09-25T03:31:24.725553Z"
-                writerId: 4j4hlwbn2zryl325ua9p1h5ix20j6ssh
+                startedAt: "2025-09-27T00:44:33.446323Z"
+                writerId: xp6665so5f9hp2tzt6mtzv4kdjx751v6
         m: []
         python_version: 3.11.3
         t:
