@@ -884,7 +884,7 @@ def build_parser() -> argparse.ArgumentParser:
     train.add_argument("--warmup_steps", type=int, default=None, help="Warmup steps")
     train.add_argument("--grad_accum_steps", type=int, default=None, help="Gradient accumulation steps")
     train.add_argument("--micro_batch_size", type=int, default=None, help="Per-device micro batch size")
-    train.add_argument("--eval_interval", type=int, default=None, help="Validation interval in steps")
+    train.add_argument("--eval_interval", type=int, default=250, help="Validation interval in steps")
     train.add_argument("--log_interval", type=int, default=None, help="Logging interval in steps")
     train.add_argument("--precision", type=str, default=None, help="Numerical precision: auto, fp16, bf16, fp32")
     train.add_argument("--seed", type=int, default=None, help="Training seed")
